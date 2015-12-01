@@ -362,6 +362,7 @@ a:visited {
 	z-index: 1;
 	float: left;
 	position: relative;
+	cursor: pointer;
 	margin: 0 auto;
 	-webkit-transform: translateX(40%) translateY(45%);
     -moz-transform: translateX(40%) translateY(45%);
@@ -376,11 +377,13 @@ a:visited {
 	top: 15%;
 	vertical-align: center;
 	position: absolute;
+	cursor: pointer;
 }
 
 .dropbox {
 	height: 300px;
 	width: 600px;
+	cursor: pointer;
 	background-color: white;
 	position: absolute;
 	margin: 0 auto;
