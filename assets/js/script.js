@@ -17,26 +17,26 @@ $("#sidebar-button") .click(function() {
 });
 
 $("#team-next") .click(function() {
-  var curr_margin = parseInt($('#team-all').css('margin-left').replace("px",""));
+  var curr_margin = parseInt($('#value-all').css('margin-left').replace("px",""));
   if (curr_margin == -6720) {
     return false;
   } 
   else {
     curr_margin -= 960;
     curr_margin = curr_margin.toString()+"px"; 
-    $("#team-all").css('margin-left', curr_margin);
+    $("#value-all").css('margin-left', curr_margin);
   }
 });
   //Implement the "slide to right" when the user clicks on #carousel-prev here
  $("#team-prev") .click(function() {
-  var curr_margin = parseInt($('#team-all').css('margin-left').replace("px",""));
+  var curr_margin = parseInt($('#value-all').css('margin-left').replace("px",""));
   if (curr_margin == 0) {
     return false;
   } 
   else {
     curr_margin += 960;
     curr_margin = curr_margin.toString()+"px"; 
-    $("#team-all").css('margin-left', curr_margin);
+    $("#value-all").css('margin-left', curr_margin);
   }
 });
 
@@ -51,9 +51,53 @@ $(".picture").hover(function() {
 
 
 $(".name1").hide();
-$(".picture").hover(function() {
-	$(".name1").toggle();
+$("#elsiepic").hover(function() {
+  $("#elsie").toggle();
+
 });
+
+$(".name1").hide();
+$("#haileypic").hover(function() {
+  $("#hailey").toggle();
+
+});
+
+$(".name1").hide();
+$("#jenpic").hover(function() {
+  $("#jen").toggle();
+
+});
+
+$(".name1").hide();
+$("#thomaspic").hover(function() {
+  $("#thomas").toggle();
+
+});
+
+$(".name1").hide();
+$("#suspic").hover(function() {
+  $("#sus").toggle();
+
+});
+
+$(".name1").hide();
+$("#davidpic").hover(function() {
+  $("#david").toggle();
+
+});
+
+$(".name1").hide();
+$("#jackeepic").hover(function() {
+  $("#jackee").toggle();
+
+});
+
+$(".name1").hide();
+$("#anonpic").hover(function() {
+  $("#anon").toggle();
+
+});
+
 
 
 
