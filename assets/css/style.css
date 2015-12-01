@@ -222,6 +222,12 @@ a:visited {
     -moz-transform: translateX(-50%) translateY(-15%);
    	transform: translateX(-50%) translateY(-15%);
 }
+
+.core-number {
+	color: white;
+	font-size: 20px; 
+	text-align: center;
+}
 .core-value {
 	position: absolute;
 	margin: 0 auto;
