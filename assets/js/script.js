@@ -49,6 +49,74 @@ $(".picture").hover(function() {
 });
 
 
+$("#organize").click(function() {
+  $('#obox').show();
+  $('#organize').css("background-color", "black");
+  $('#pbox').hide();
+  $('#cbox').hide();
+  $('#tbox').hide();
+  $('#tape').css("background-color", "#878787");
+  $('#plan').css("background-color", "#878787");
+  $('#communicate').css("background-color", "#878787");
+});
+
+$("#plan").click(function() {
+  $('#pbox').show();
+  $('#plan').css("background-color", "black");
+  $('#obox').hide();
+  $('#cbox').hide();
+  $('#tbox').hide();
+  $('#tape').css("background-color", "#878787");
+  $('#organize').css("background-color", "#878787");
+  $('#communicate').css("background-color", "#878787");
+});
+
+$("#communicate").click(function() {
+  $('#cbox').show();
+  $('#communicate').css("background-color", "black");
+  $('#obox').hide();
+  $('#pbox').hide();
+  $('#tbox').hide();
+  $('#tape').css("background-color", "#878787");
+  $('#organize').css("background-color", "#878787");
+  $('#plan').css("background-color", "#878787");
+});
+
+$("#tape").click(function() {
+  $('#tbox').show();
+  $('#tape').css("background-color", "black");
+  $('#obox').hide();
+  $('#pbox').hide();
+  $('#cbox').hide();
+  $('#communicate').css("background-color", "#878787");
+  $('#organize').css("background-color", "#878787");
+  $('#plan').css("background-color", "#878787");
+});
+
+$('.dropbox').click(function() {
+  $('#obox').hide();
+  $('#pbox').hide();
+  $('#cbox').hide();
+  $('#tbox').hide();
+  $('#communicate').css("background-color", "#878787");
+  $('#organize').css("background-color", "#878787");
+  $('#plan').css("background-color", "#878787");
+  $('#tape').css("background-color", "#878787");
+});
+
+
+
+//$("#organize").click(function() {
+ // $('#obox').show();
+ // $('#organize').css("background-color", "black");
+//});
+
+
+$("#organize").click(function() {
+  $('#obox').show();
+  $('#organize').css("background-color", "black");
+});
+
 
 $(".name1").hide();
 $("#elsiepic").hover(function() {
@@ -97,7 +165,6 @@ $("#anonpic").hover(function() {
   $("#anon").toggle();
 
 });
-
 
 
 

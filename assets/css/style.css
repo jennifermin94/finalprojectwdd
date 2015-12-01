@@ -237,9 +237,11 @@ a:visited {
 }
 
 .core-number {
-	color: white;
+	color: black;
 	font-size: 30px;
 	text-align: center;
+	position: relative;
+	top: 25%; 
 }
 .core-value {
 	position: absolute;
@@ -251,28 +253,33 @@ a:visited {
 	font-size: 70px;
 	text-align: center;
 	z-index: 1;
-	top: 25%;
+	top: 45%;
 	left: 50%;
-	-webkit-transform: translateX(-50%) translateY(-25%);
-    -moz-transform: translateX(-50%) translateY(-25%);
-   	transform: translateX(-50%) translateY(-25%);
+	-webkit-transform: translateX(-50%) translateY(-35%);
+    -moz-transform: translateX(-50%) translateY(-35%);
+   	transform: translateX(-50%) translateY(-35%);
 }
 
+.icon {
+	height: 60px; 
+	width: 60px; 
+	padding-right: 10px;
+}
 
 .value-state {
 	position: absolute; 
 	margin 0 auto;
 	color: black;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 300px; 
 	text-align: center;
 	width: 500px;
 	z-index: 1;
-	top: 50%;
+	top: 65%;
 	left: 50%;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-   	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-55%);
+    -moz-transform: translateX(-50%) translateY(-55%);
+   	transform: translateX(-50%) translateY(-55%);
 }
 
 #heading-section {
@@ -333,6 +340,84 @@ a:visited {
 	background: rgba(0, 0, 0, 0.2);
 }
 
+.wwd-section{
+	width: 720px;
+	height: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.wwdbox {
+	height: 100px;
+	width: 150px; 
+	background-color: #878787;
+	z-index: 1;
+	float: left;
+	position: relative;
+	margin: 0 auto;
+	-webkit-transform: translateX(40%) translateY(45%);
+    -moz-transform: translateX(40%) translateY(45%);
+   	transform: translateX(40%) translateY(45%);
+
+}
+
+.wwdicon {
+	height: 80px;
+	width: 80px;
+	left: 25%;
+	top: 15%;
+	vertical-align: center;
+	position: absolute;
+}
+
+.dropbox {
+	height: 300px;
+	width: 600px;
+	background-color: white;
+	position: absolute;
+	margin: 0 auto;
+	-webkit-transform: translateX(10%) translateY(50%);
+    -moz-transform: translateX(10%) translateY(50%);
+   	transform: translateX(10%) translateY(50%);
+   	visibility: visible;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+	-webkit-transform: translateY(80%);
+    -moz-transform: translateY(80%);
+   	transform: translateY(80%);
+
+}
+p {
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0 auto;
+}
+#obox {
+	display: none;
+	z-index: 100;
+}
+
+#pbox {
+	display: none;
+	z-index: 100;
+}
+
+#cbox {
+	display: none;
+	z-index: 100;
+}
+
+#tbox {
+	display: none;
+	z-index: 100;
+}
 
 #timeline {
 	background-color: #946d82;
@@ -520,29 +605,7 @@ a:visited {
 	
 }
 
-/*.picture {
-	position: absolute;
-	top: 50%;
-	float: left;
-	eft: 50%;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-   	transform: translateX(-50%) translateY(-50%);
 
-}
-
-.name1 {
-	text-align: center;
-	font-size: 14px;
-	color: white;
-	position: absolute;
-	top: 50%;
-    left: 50%;
-    visibility: visible;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-   	transform: translateX(-50%) translateY(-50%);
-}*/
 
 #team-prev {
     position: absolute;
@@ -572,14 +635,21 @@ a:visited {
 
 }
 
-#timeline-spine {
+.timeline-spine {
 	width: 720px;
 	height: 4px;
 	background: white;
 	border-radius: 2px;
 	position: absolute;
-	top: 50%;
 	
+}
+
+#fall {
+	top: 30%;
+}
+
+#spring {
+	top: 60%;
 }
 
 #timeline-container {
