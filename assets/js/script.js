@@ -40,6 +40,11 @@ $("#team-next") .click(function() {
   }
 });
 
+$("#organize").click(function() {
+  $('#obox').show();
+  $('#organize').css("background-color", "black");
+});
+
 
 $(".picture").css("opacity", 1.0);
 $(".picture").hover(function() {
@@ -105,17 +110,11 @@ $('.dropbox').click(function() {
 });
 
 
-
-//$("#organize").click(function() {
- // $('#obox').show();
- // $('#organize').css("background-color", "black");
-//});
-
-
 $("#organize").click(function() {
   $('#obox').show();
   $('#organize').css("background-color", "black");
 });
+
 
 
 $(".name1").hide();
@@ -164,6 +163,56 @@ $(".name1").hide();
 $("#anonpic").hover(function() {
   $("#anon").toggle();
 
+});
+
+
+
+$('.timeline-item').click(function() {
+  $('#modal-box').show();
+
+});
+
+$('#modal-box').click(function() {
+    $('#modal-box').hide();
+    $('.modal-text').hide();
+});
+
+$("#aug").click(function() {
+  $('#aug-text').show();
+});
+
+$("#nov").click(function() {
+  $('#nov-text').show();
+});
+
+$("#oct").click(function() {
+  $('#oct-text').show();
+});
+
+$("#dec").click(function() {
+  $('#dec-text').show();
+});
+
+$("#sept").click(function() {
+  $('#sept-text').show();
+});
+
+$("#jan").click(function() {
+  $('#jan-text').show();
+});
+
+$("#feb").click(function() {
+  $('#feb-text').show();
+});
+
+$("#mar").click(function() {
+  $('#mar-text').show();
+});
+$("#apr").click(function() {
+  $('#apr-text').show();
+});
+$("#may").click(function() {
+  $('#may-text').show();
 });
 
 
