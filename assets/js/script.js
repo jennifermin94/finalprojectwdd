@@ -18,7 +18,7 @@ $("#sidebar-button") .click(function() {
 
 $("#team-next") .click(function() {
   var curr_margin = parseInt($('#value-all').css('margin-left').replace("px",""));
-  if (curr_margin == -6720) {
+  if (curr_margin == -3840) {
     return false;
   } 
   else {
